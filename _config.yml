@@ -1,2 +1,9 @@
+markdown: kramdown
+title: LatLon Notebooks &ndash; Analog
+assets_path: '//analog.is/assets'
+startup_path: '//analog.is/lib'
+mothership:
+  domain: analog.is
+  title: Analog
 gems:
   - jekyll-redirect-from

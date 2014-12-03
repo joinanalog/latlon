@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>
+    {% if page.title %}{{ page.title }} &ndash; {{ site.title }}{% else %}{{ site.title }}{% endif %}
+  </title>
+  <link rel="shortcut icon" href="{{site.startup_path}}/flat-ui/images/favicon.ico">
+  {% include general/included_stylesheets.html %}
+</head>
+
+<body>
+  {{content}}
+
+  {% include general/included_javascripts.html %}
+  {% include general/google_analytics.html %}
+</body>
+</html>
